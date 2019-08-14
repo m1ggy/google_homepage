@@ -6,33 +6,35 @@ ul{
     padding-top: -20px;
     font-size: 14px;
 }
+
 li{
     display: inline;
     padding-left: 20px;
 
 }
+
 a.signin{
     border: 1px solid rgb(75, 75, 233);
     border-radius: 5px;
     background-color: rgb(75, 75, 245);
     padding: 10px;
-    color: white;
-    
+    color: white;  
 }
+
 a:visited{
     text-decoration: none;
-
 }
+
 a:link{
     text-decoration: none;
 }
+
 a:hover{
     text-decoration: underline;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 
@@ -41,6 +43,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 input[type=text]{
     position: relative;
     left: 400px;
@@ -61,7 +64,6 @@ input[type=submit]{
     justify-content: center;
     background-color: rgb(216, 216, 216);
     border:none;
-
 }
 
 ul.bot{
@@ -73,6 +75,6 @@ ul.bot{
 }
 
 li.botli{
-display: inline;
-font-size: 10px;
+    display: inline;
+    font-size: 10px;
 }
